@@ -1,12 +1,52 @@
-# React + Vite
+World Atlas Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a World Atlas web application that allows users to explore geographical data such as countries, continents, population, area, languages, and more. The app provides an interactive and visually appealing interface to explore the world and learn about different countries.
 
-Currently, two official plugins are available:
+Live Demo:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live version of the app here:
+World Atlas - Live Demo
 
-## Expanding the ESLint configuration
+Features
+Interactive World Map: Clickable world map with detailed country information.
+Country Details: Displays key information about countries such as population, capital city, area, currency, languages, and more.
+Search Functionality: Search for specific countries quickly.
+Responsive Design: Fully responsive design to ensure the app looks great on desktops, tablets, and mobile devices.
+Continent Overview: View and explore countries by continent.
+Customizable Themes: Users can switch between light and dark modes (if implemented).
+Tech Stack
+Frontend:
+React: The app is built using React for a dynamic and interactive user interface.
+Leaflet.js: For rendering interactive maps.
+Axios: For making HTTP requests to fetch country data.
+CSS: For styling the app (or styled-components, if used).
+React Router: For handling navigation between different views (if applicable).
+Deployment:
+Deployed using Netlify for continuous deployment and hosting.
+Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally, follow these steps:
+
+1. Clone the repository
+
+Open your terminal and run the following command:
+
+git clone https://github.com/aniket08-dev/world-atlas.git
+2. Navigate to the project folder
+
+Change into the project directory:
+
+cd world-atlas
+3. Install the dependencies
+
+Install the required dependencies:
+
+npm install
+4. Start the development server
+
+After the dependencies are installed, start the local development server:
+
+npm start
+
+The app will be running locally at http://localhost:3000
+.

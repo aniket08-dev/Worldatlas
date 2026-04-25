@@ -2,7 +2,7 @@ World Atlas Web Application
 
 This is a World Atlas web application that allows users to explore geographical data such as countries, continents, population, area, languages, and more. The app provides an interactive and visually appealing interface to explore the world and learn about different countries.
 
-Live Demo: aniket-atole-worldatlas.netlify.app
+Live Demo: https://aniket-atole-worldatlas.netlify.app/
 
 Check out the live version of the app here:
 World Atlas - Live Demo
